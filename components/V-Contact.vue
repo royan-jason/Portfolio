@@ -3,7 +3,7 @@
         <a
             ref="contactEmail"
             v-hoverable
-            href="mailto:hello@farish.is-a.dev"
+            href="mailto:jasonroyan@gmail.com"
             rel="noopener"
             class="contact__email"
         >

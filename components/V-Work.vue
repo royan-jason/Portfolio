@@ -5,7 +5,7 @@
         aria-label="works section"
         data-scroll-section
     >
-        <V-H2 aria-label="work section heading">Work</V-H2>
+        <V-H2 aria-label="work section heading">Projects</V-H2>
         <ul class="works__list" aria-label="works list">
             <V-Work-Item
                 v-for="(work, key) in works"

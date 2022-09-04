@@ -4,12 +4,12 @@
 
         <div ref="headerContainer" class="header__container">
             <h1 class="header__container__title">
-                <span class="sr-only">Farish Irfan</span>
+                <span class="sr-only">Jason Royan</span>
                 <span class="line" aria-hidden="true">
-                    <span class="line__content">Farish</span>
+                    <span class="line__content">Jason</span>
                 </span>
                 <span class="line" aria-hidden="true">
-                    <span class="line__content ml-responsive serif">Irfan</span>
+                    <span class="line__content ml-responsive serif">Royan</span>
                 </span>
             </h1>
 
@@ -43,11 +43,11 @@ export default {
     data() {
         return {
             links: [
-                { label: 'Work', action: () => this.$scrollTo('.works') },
-                { label: 'About', action: () => this.$scrollTo('.about') },
+                { label: 'Projects', action: () => this.$scrollTo('.works') },
+                { label: 'E&E', action: () => this.$scrollTo('.about') },
                 { label: 'Contact', action: () => this.$scrollTo('.contact') }
             ],
-            subTitleText: 'Software Developer'
+            subTitleText: 'Automotive Engineer'
         };
     },
     mounted() {

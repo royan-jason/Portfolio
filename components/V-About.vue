@@ -5,7 +5,7 @@
         aria-label="about section"
         data-scroll-section
     >
-        <V-H2 aria-label="about section heading">About</V-H2>
+        <V-H2 aria-label="about section heading">Expierence & Education</V-H2>
 
         <p ref="aboutText" class="about__text">
             <span class="sr-only">{{ about.text }}</span>
@@ -66,7 +66,7 @@ export default {
             {
                 svg: 'TS_SVG',
                 link: 'https://typescriptlang.org/'
-            },
+            } /* ,
             {
                 svg: 'HTML_SVG'
             },
@@ -80,7 +80,7 @@ export default {
             {
                 svg: 'PY_SVG',
                 link: 'https://python.org/'
-            }
+            }  */
         ]
     }),
     async fetch() {

@@ -3,8 +3,8 @@
         <div ref="footerWrapper" class="footer__wrapper" data-scroll-sticky>
             <div ref="footerContent" class="footer__content">
                 <p ref="footerContentTitle" class="footer__content__title">
-                    Farish <br />
-                    <span class="serif">Irfan</span>
+                    Jason <br />
+                    <span class="serif">Royan</span>
                 </p>
                 <ul class="footer__content__social">
                     <li
@@ -25,9 +25,9 @@
                 </ul>
 
                 <p class="footer__content__copyright">
-                    Copyright ©{{ getCurrentYear() }} FI
+                    ©{{ getCurrentYear() }} 🏎
                 </p>
-                <p class="footer__content__note">Made with ❤ from Malaysia!</p>
+                <p class="footer__content__note">Carpe Diem</p>
             </div>
             <div
                 class="footer__arrow__wrapper"
@@ -50,20 +50,20 @@ export default {
     data: () => ({
         socialLinks: [
             {
-                label: 'linktree',
-                href: 'https://linktr.ee/fxrysh'
+                label: 'linkedln',
+                href: 'https://www.linkedin.com/in/jason-royan-111180237'
+            },
+            {
+                label: 'resumÉ',
+                href: '~images/JasonRoyanResume.pdf download'
             },
             {
                 label: 'github',
-                href: 'https://github.com/fxrysh'
-            },
-            {
-                label: 'twitter',
-                href: 'https://twitter.com/fxrysh'
+                href: 'https://github.com/royan-jason'
             },
             {
                 label: 'email',
-                href: 'mailto:hello@farish.is-a.dev'
+                href: 'mailto:jasonroyan@gmail.com'
             }
         ]
     }),

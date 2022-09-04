@@ -57,26 +57,22 @@ export default {
             prevAnimation: null,
             navigationalLinks: [
                 { label: 'Home', action: () => this.$scrollTo(0) },
-                { label: 'Works', action: () => this.$scrollTo('.works') },
-                { label: 'About', action: () => this.$scrollTo('.about') },
+                { label: 'Projects', action: () => this.$scrollTo('.works') },
+                { label: 'E&E', action: () => this.$scrollTo('.about') },
                 { label: 'Contact', action: () => this.$scrollTo('.contact') }
             ],
             socialLinks: [
                 {
-                    label: 'linktree',
-                    href: 'https://linktr.ee/fxrysh'
+                    label: 'linkedln',
+                    href: 'https://linktr.ee/https://www.linkedin.com/in/jason-royan-111180237'
                 },
                 {
                     label: 'github',
-                    href: 'https://github.com/fxrysh'
-                },
-                {
-                    label: 'twitter',
-                    href: 'https://twitter.com/fxrysh'
+                    href: 'https://github.com/royan-jason'
                 },
                 {
                     label: 'email',
-                    href: 'mailto:hello@farish.is-a.dev'
+                    href: 'mailto:jasonroyan@gmail.com'
                 }
             ]
         };
