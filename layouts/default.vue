@@ -24,7 +24,7 @@ export default {
         },
         logGreeting() {
             console.log(
-                "Looking for source code? Why not check the repository itself! Don't forget to leave a ⭐!\nRepository: https://github.com/fxrysh/portfolio"
+                "Looking for source code? Why not check the repository itself! Don't forget to leave a ⭐!\nRepository: https://github.com/royan-jason/portfolio"
             );
         },
         clear() {
