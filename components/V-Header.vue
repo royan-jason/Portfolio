@@ -176,7 +176,7 @@ export default {
         display: flex;
 
         &__clock {
-            color: lighten($color: grey, $amount: 1);
+            color: lighten($color: rgb(214, 38, 38), $amount: 1);
             display: none;
         }
 
